@@ -1,0 +1,44 @@
+body{
+	background-image: url(pic.jpg.jpg);
+	background-size: center;
+	background-repeat: no-repeat;
+	height: 700px;
+	background-position: center;
+}	
+.col{
+	font-family: 'Georgia';
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	text-align: center;
+	font-weight: bold;
+	height: 250px ;
+	font-size:1.5em;
+	margin: 0px;
+	padding: 25px;
+	padding-top: 200px;
+	transition: all 1s;
+}
+.col:hover{
+	transform: scale(1.1);
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: center;
+	color: white;
+	background-color: #FF5F00;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	transition: all 1s;
+}
+.btn:hover{
+	background-color: #FF2300;
+	cursor: pointer;
+	color: white;
+	transform: scale(1.1);
+}
+
